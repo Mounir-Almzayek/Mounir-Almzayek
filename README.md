@@ -41,20 +41,12 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 
 ---
 
-### 📊 GitHub Stats & Activity
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Mounir-Almzayek&theme=tokyonight&margin-w=15&no-bg=true" alt="Mounir's Trophies" />
-</p>
+### 📊 GitHub Stats 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mounir-Almzayek&show_icons=true&theme=tokyonight&count_private=true" alt="Mounir's GitHub Stats" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mounir-Almzayek&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
-
-
 
 ---
 
