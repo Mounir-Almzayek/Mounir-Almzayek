@@ -29,6 +29,32 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 | **Backend & Data** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Hive](https://img.shields.io/badge/Local--Storage-Hive-blueviolet?style=flat-square) ![REST API](https://img.shields.io/badge/APIs-REST-lightblue?style=flat-square) ![Integrations](https://img.shields.io/badge/Maps%20%7C%20Payments%20%7C%20QR-black?style=flat-square) |
 | **DevOps & Standards** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-Codemagic%20%7C%20Actions-darkgreen?style=flat-square) ![Testing](https://img.shields.io/badge/Standards-Unit%20Testing%20%7C%20Clean%20Code-red?style=flat-square) |
 
+
+---
+
+#### 🤖 AI & Machine Learning
+- **[CV Management](https://github.com/Mounir-Almzayek/CV-management):** AI-powered system for ingesting CVs (PDF/Google Drive), extracting structured data via LLMs, and supporting semantic search with MongoDB.
+- **[Open-Router Template](https://github.com/Mounir-Almzayek/Open-Router):** Production-ready FastAPI template for OpenRouter integration, featuring OOP design, multimodal support (Audio/Video/PDF), and prompt caching.
+- **[Simple Neural Network](https://github.com/Mounir-Almzayek/Simple-Neural-Network):** A lightweight, modular Neural Network framework built from scratch using NumPy for educational experimentation.
+
+#### 📱 Mobile Development (Flutter)
+- **[Visitors Management](https://github.com/Mounir-Almzayek/visitors):** Professional attendance system built with Clean Architecture principles.
+- **[Survey App](https://github.com/Mounir-Almzayek/survey-app):** Offline-first mobile application for accreditation processes and research surveys.
+- **[Clinic Hub](https://github.com/Mounir-Almzayek/Clinic-Hub):** Comprehensive medical management app with medication tracking, appointment scheduling, and QR code access.
+- **[Zaker App](https://github.com/Mounir-Almzayek/Zaker-App):** Smart exam preparation platform for students featuring automated testing and real-time feedback (GetX).
+- **[Order Application (Sold Out)](https://github.com/Mounir-Almzayek/Order-Application-):** Premium delivery experience with real-time tracking, geolocation, and multi-language support.
+- **[Wasfeh](https://github.com/Mounir-Almzayek/Wasfeh):** Digital healthcare revolution using QR codes to connect doctors, patients, and pharmacies securely.
+- **[Connect Four AI](https://github.com/Mounir-Almzayek/Connect-Four):** Classic game featuring a state-of-the-art AI bot powered by Minimax algorithm and Alpha-Beta pruning.
+- **[Minesweeper](https://github.com/Mounir-Almzayek/Minesweeper):** Advanced Flutter game implementation using Flood Fill algorithm and Command Pattern for undo/redo.
+- **[CIMT Arm](https://github.com/Mounir-Almzayek/cimt-arm):** Rehabilitation app with interactive exercise programs and progress tracking.
+- **[Clothing Game](https://github.com/Mounir-Almzayek/Clothing-Game):** Educational interactive game for children using drag & drop mechanics.
+
+#### 🛠️ Engineering & Core CS
+- **[SQL Compiler](https://github.com/Mounir-Almzayek/SQL-Compiler):** High-performance Front-end Compiler built with Java and ANTLR4 for Lexical and Syntactic analysis of SQL.
+- **[Trees & Graphs in Java](https://github.com/Mounir-Almzayek/Trees-and-Graphs-in-Java):** Integrated data structures implementation and algorithmic representations.
+- **[Cinema Booking System](https://github.com/Mounir-Almzayek/Cinema_Java_Swing_Project):** Comprehensive ticket reservation and management application built with Java Swing.
+- **[Tree Representations](https://github.com/Mounir-Almzayek/Tree-representations-and-dealing-with-papers):** Advanced binary tree representations for text strings and geometric merging verification.
+
 ---
 
 ### 🌟 Key Highlights & Certifications
