@@ -1,5 +1,5 @@
 # 👋 Hi there, I'm Mounir Almzayek
-### AI Engineer | Machine Learning Specialist | Generative AI & Automation Architect
+### AI Engineer & Mobile Developer | Building Intelligent Automation | Clean Architecture Enthusiast
 
 <p align="left">
   <img src="https://img.shields.io/badge/Main_Focus-AI_Engineering-blue?style=for-the-badge&logo=openai" />
@@ -14,7 +14,7 @@ I am an **AI Engineer** bridging the gap between classical **Machine Learning** 
 
 With a background in leading Mobile Development teams, I bring an engineer's discipline to Data Science—ensuring that every ML model and automation pipeline is built with **Clean Architecture**, scalability, and production readiness in mind.
 
-- 🤖 **Expertise:** Predictive Neural Networks, Agentic Workflows (n8n), and LLM Orchestration.
+- 🤖 **Expertise:** Predictive Neural Networks, Agentic Workflows, and LLM Orchestration.
 - 📱 **Background:** Former Mobile Team Lead with a passion for high-performance cross-platform apps.
 - 🏛️ **Philosophy:** Architecting solutions that combine the precision of predictive modeling with the reasoning power of LLMs.
 
@@ -41,22 +41,26 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Activity
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Mounir-Almzayek&theme=tokyonight&margin-w=15&no-bg=true" alt="Mounir's Trophies" />
+</p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mounir-Almzayek&show_icons=true&theme=tokyonight&count_private=true" alt="Mounir's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mounir-Almzayek&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mounir-Almzayek&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mounir-Almzayek&theme=tokyo-night" width="100%" alt="Activity Graph" />
 </p>
 
 ---
 
-### 📂 Featured Projects
-
-- **[Clinic Hub](https://github.com/Mounir-Almzayek/Clinic-Hub):** Comprehensive medical management system (Flutter/BLoC/Firebase).
-- **[Zaker App](https://github.com/Mounir-Almzayek/Zaker-App):** Smart exam prep platform with automated testing.
-- **[Mini Sweeper](https://github.com/Mounir-Almzayek/Minesweeper):** Advanced Minesweeper with Flood Fill & Command Pattern logic.
-- **[Connect Four AI](https://github.com/Mounir-Almzayek/Connect-Four):** Game with Minimax & Alpha-Beta pruning algorithm.
-
----
 
 ### 📫 Connect with me:
 <p align="left">
