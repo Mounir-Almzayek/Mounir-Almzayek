@@ -40,24 +40,6 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 - 🔗 **Expert in RAG & Vector Databases** for enhancing LLM accuracy.
 
 ---
-
-### 📊 GitHub Stats 
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mounir-Almzayek&show_icons=true&theme=tokyonight&count_private=true" alt="Mounir's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mounir-Almzayek&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
-
-### 📫 Connect with me:
-<p align="left">
-<a href="https://linkedin.com/in/mounir-almzayek" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mounir Almzayek" height="30" width="40" /></a>
-<a href="mailto:mounir.almzayek@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="mounir.almzayek" height="30" width="40" /></a>
-</p>
-
----
 <p align="center">
   <i>"I don't just integrate APIs; I architect robust solutions that combine predictive modeling with LLM reasoning."</i>
 </p>
