@@ -33,6 +33,7 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 ---
 
 #### 🤖 AI & Machine Learning
+- **[Autonomous Deterministic Agent System (ADAS)](https://github.com/Mounir-Almzayek/autonomous-deterministic-agent-system):** Production-grade AI control framework implementing deterministic intent parsing, policy enforcement, risk scoring, sandboxed execution, multi-layer validation, and LangGraph-based orchestration for safe autonomous agent governance.
 - **[CV Management](https://github.com/Mounir-Almzayek/CV-management):** AI-powered system for ingesting CVs (PDF/Google Drive), extracting structured data via LLMs, and supporting semantic search with MongoDB.
 - **[Open-Router Template](https://github.com/Mounir-Almzayek/Open-Router):** Production-ready FastAPI template for OpenRouter integration, featuring OOP design, multimodal support (Audio/Video/PDF), and prompt caching.
 - **[Simple Neural Network](https://github.com/Mounir-Almzayek/Simple-Neural-Network):** A lightweight, modular Neural Network framework built from scratch using NumPy for educational experimentation.
