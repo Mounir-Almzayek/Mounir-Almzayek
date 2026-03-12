@@ -33,6 +33,8 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 ---
 
 #### 🤖 AI & Machine Learning
+- **[RS4IT MCP Hub](https://github.com/Mounir-Almzayek/Rs4it-MCP):** A unified platform that exposes company tools, workflows, and external MCP plugins to AI clients via the Model Context Protocol (MCP). It aggregates local tools, composite skills, and plugin servers into a single AI interface with role-based visibility and a Next.js admin panel for full management.
+- **[AutoContent AI](https://github.com/Mounir-Almzayek/AutoContent-AI):** AI-powered automated content generation and publishing system. It manages keywords, runs a multi-agent AI pipeline (analysis → brief → article → quality check → SEO optimization), schedules content generation, and publishes directly to WordPress via REST API with a Streamlit dashboard and FastAPI backend.
 - **[Adaptive Agentic RAG System](https://github.com/Mounir-Almzayek/Adaptive-Agentic-RAG-System):** A production-ready, model-agnostic RAG (Retrieval-Augmented Generation) system with adaptive retrieval, conversation memory, tool orchestration, and MCP compatibility. Built for scalability and portfolio/SaaS readiness.
 - **[Autonomous Deterministic Agent System (ADAS)](https://github.com/Mounir-Almzayek/autonomous-deterministic-agent-system):** Production-grade AI control framework implementing deterministic intent parsing, policy enforcement, risk scoring, sandboxed execution, multi-layer validation, and LangGraph-based orchestration for safe autonomous agent governance.
 - **[CV Management](https://github.com/Mounir-Almzayek/CV-management):** AI-powered system for ingesting CVs (PDF/Google Drive), extracting structured data via LLMs, and supporting semantic search with MongoDB.
