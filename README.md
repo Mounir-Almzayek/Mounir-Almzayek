@@ -42,6 +42,7 @@ With a background in leading Mobile Development teams, I bring an engineer's dis
 - **[Simple Neural Network](https://github.com/Mounir-Almzayek/Simple-Neural-Network):** A lightweight, modular Neural Network framework built from scratch using NumPy for educational experimentation.
 
 #### 📱 Mobile Development (Flutter)
+- **[Mosques](https://github.com/Mounir-Almzayek/Mosques):** A comprehensive, real-time Smart Mosque solution built with Flutter. This project provides a beautiful, customizable display for prayer times, announcements, and spiritual content, seamlessly synchronized across devices via Firebase.
 - **[Visitors Management](https://github.com/Mounir-Almzayek/visitors):** Professional attendance system built with Clean Architecture principles.
 - **[Survey App](https://github.com/Mounir-Almzayek/survey-app):** Offline-first mobile application for accreditation processes and research surveys.
 - **[Clinic Hub](https://github.com/Mounir-Almzayek/Clinic-Hub):** Comprehensive medical management app with medication tracking, appointment scheduling, and QR code access.
