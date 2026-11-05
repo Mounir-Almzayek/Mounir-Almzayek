@@ -2,30 +2,21 @@
   <img src="assets/engineering-portfolio-banner.svg" alt="Mounir Louay Almzayek — AI systems, full-stack engineering, and Flutter development" width="100%" />
 </p>
 
-<h1 align="center">Mounir Louay Almzayek</h1>
-
 <p align="center"><strong>Software Engineer · AI &amp; Speech Systems · Full-Stack · Flutter</strong></p>
-<p align="center">I design and deliver dependable applications, backend platforms, and applied AI systems—from offline mobile workflows to governed agents and real-time speech processing.</p>
+<p align="center">I build reliable mobile products, backend platforms and applied AI systems—with attention to architecture, offline resilience and engineering trade-offs.</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mounir-almzayek-baba06279/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:mouneeralmzayek@gmail.com">Email</a> &nbsp;·&nbsp;
-  <a href="https://www.byliqaa.me/ar">Live product: Liqaa</a> &nbsp;·&nbsp;
-  <a href="https://github.com/Mounir-Almzayek?tab=repositories">All repositories</a>
+  <a href="https://www.byliqaa.me/ar">Liqaa (live product)</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Mounir-Almzayek?tab=repositories">Repositories</a>
 </p>
-
 <p align="center">
-  <img alt="Flutter &amp; Dart" src="https://img.shields.io/badge/Flutter%20%26%20Dart-Mobile-2675B8?style=flat-square" />
-  <img alt="TypeScript, React and NestJS" src="https://img.shields.io/badge/TypeScript%20%7C%20React%20%7C%20NestJS-Web-385F91?style=flat-square" />
-  <img alt="Python, machine learning and LLMs" src="https://img.shields.io/badge/Python%20%7C%20ML%20%7C%20LLMs-AI-376B80?style=flat-square" />
-</p>
-
-<p align="center">
-  <a href="#featured-work">Featured work</a> &nbsp;·&nbsp;
+  <a href="#featured-work">Featured projects</a> &nbsp;·&nbsp;
   <a href="#engineering-approach">Engineering approach</a> &nbsp;·&nbsp;
   <a href="#public-project-index">Project index</a> &nbsp;·&nbsp;
   <a href="#experience">Experience</a> &nbsp;·&nbsp;
-  <a href="#certifications-and-community">Certifications &amp; community</a>
+  <a href="#certifications">Certifications</a>
 </p>
 
 ---
@@ -39,79 +30,35 @@
 | **Mobile & cross-platform** | Flutter/Dart, offline-first systems, device/payment integrations, Android/iOS/Windows | [Survey application](https://github.com/Mounir-Almzayek/survey-app) · [Bin Taleb on Play](https://play.google.com/store/apps/details?id=com.rs4it.bin_taleb) |
 
 <a id="featured-work"></a>
-## Featured work
+## Featured projects
 
-A shortlist for engineering reviewers: **the problem, the engineering decisions, and where to inspect the evidence**. Some client and team code is private; I link only to public sources or products.
+A focused shortlist for technical reviewers: **what it does, the engineering involved, and evidence to explore**. Private team and client code is not linked.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 · Tebyan — smart mosque ecosystem</h3>
-      <p><strong>Flutter · NestJS · Supabase · FastAPI · WebSocket</strong></p>
-      <p>A mobile and display experience designed for intermittent connectivity, localized mosque content and device-specific workflows. A separate live-recitation service uses streaming speech recognition and constrained Quran position tracking.</p>
-      <p><em>Focus: offline runtime, clear service boundaries, real-time audio alignment.</em><br/><sub>Team repositories are private; technical architecture can be discussed.</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 · M.O.U.N.I.R — personal AI architecture</h3>
-      <p><strong>Python · agent orchestration · durable state · policy controls</strong></p>
-      <p>Local-first personal agent architecture exploring persistent identity, bounded context, governed memory, explicit action authorization and testable continuity across restarts.</p>
-      <p><em>Focus: trust boundaries, resilience, memory provenance and reproducibility.</em><br/><sub>Private repository; implementation details available for technical discussion.</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>03 · Liqaa — digital invitations</h3>
-      <p><strong>Web platform · TypeScript · Node.js / NestJS</strong></p>
-      <p>Customizable invitation experiences with mobile-focused interactions, event details, countdowns and RSVP flows.</p>
-      <p><strong><a href="https://www.byliqaa.me/ar">Explore the live product</a></strong><br/><sub>Application source is private.</sub></p>
-    </td>
-    <td valign="top">
-      <h3>04 · Wusol — school operations SaaS</h3>
-      <p><strong>Next.js · TypeScript · Fastify · Prisma · MySQL</strong></p>
-      <p>Administrative workflows for students, attendance and access management, with role-based permissions and multi-tenant service design.</p>
-      <p><em>Focus: typed APIs, authorization boundaries, institution workflows.</em><br/><sub>Private project source.</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>05 · King Abdulaziz Center Survey</h3>
-      <p><strong>Flutter · BLoC · Hive · GPS · QR</strong></p>
-      <p>Offline-first field data collection with conditional surveys, device custody, background synchronization and geotagged responses.</p>
-      <p><strong><a href="https://github.com/Mounir-Almzayek/survey-app">Inspect repository</a></strong></p>
-    </td>
-    <td valign="top">
-      <h3>06 · RS4IT MCP Hub</h3>
-      <p><strong>MCP · Next.js · backend services · role-based access</strong></p>
-      <p>Integrated internal tools and external services behind an administrative surface for managing permissions, tools and access policies.</p>
-      <p><strong><a href="https://github.com/Mounir-Almzayek/Rs4it-MCP">Inspect repository</a></strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>07 · Mazed — POS &amp; accounting integrations</h3>
-      <p><strong>Flutter Windows/mobile · ERP · payment terminals</strong></p>
-      <p>Cross-platform point-of-sale engineering with NamiPay ECR integrations, ERP connectivity, transaction reliability and Saudi e-invoicing requirements.</p>
-      <p><em>Focus: financial workflow reliability and platform integration.</em><br/><sub>Employer/client code is private.</sub></p>
-    </td>
-    <td valign="top">
-      <h3>08 · Quran speech-model research</h3>
-      <p><strong>Whisper Tiny/Small · NVIDIA NeMo · LoRA · CTC</strong></p>
-      <p>Separate Arabic/Quran ASR adaptation experiments with reciter-disjoint splits, locked evaluation manifests, WER/CER tracking and training safeguards; distinct from the live Tebyan service.</p>
-      <p><strong><a href="https://github.com/Mounir-Almzayek/quran-whisper-tiny-colab">Whisper Tiny</a> · <a href="https://github.com/Mounir-Almzayek/quran-whisper-small-colab">Whisper Small</a> · <a href="https://github.com/Mounir-Almzayek/quran-fastconformer-colab">FastConformer</a></strong></p>
-    </td>
-  </tr>
-</table>
-
-### Other products and applied AI work
-
-| Product | Domain | Public proof |
+| Project | Engineering focus | Evidence |
 |---|---|---|
-| **OVA** | Real-estate valuation AI assistant; conversational behavior and workflow alignment | Professional experience at Ovaluate; code is private |
-| **The Saudi Cup** | Guest-facing event services, travel and hospitality workflows | [Google Play](https://play.google.com/store/apps/details?id=com.app.saudicup) |
-| **The Swimmer ecosystem** | Customer commerce and maintenance-service applications | [The Swimmer App on Play](https://play.google.com/store/apps/details?id=com.rs4it.swimmer) |
-| **Bin Taleb** | Swimming-pool products and services mobile application | [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.bin_taleb) |
-| **Resume Analyst AI** | CV parsing, semantic search, re-ranking and matching | [GitHub source](https://github.com/Mounir-Almzayek/CV-management) |
-| **Advanced Neural Network Framework** | From-scratch NumPy neural-network components and training | [GitHub source](https://github.com/Mounir-Almzayek/Simple-Neural-Network) |
+| **Tebyan — mosque platform & live recitation** | Flutter mobile/display with offline-first behavior; FastAPI/WebSocket live imam tracking via speech recognition and constrained Quran alignment. | Team source private |
+| **M.O.U.N.I.R — personal AI agent** | Local-first agent architecture with durable identity, governed memory, bounded context and explicit action controls. | Private source |
+| **Liqaa — digital invitations** | Interactive invitation templates, event details and RSVP workflows built for the web. | [Live product](https://www.byliqaa.me/ar) |
+| **Wusol — school management SaaS** | Next.js, TypeScript, Fastify, Prisma and MySQL; multi-tenant administration and role-based access. | Private source |
+| **King Abdulaziz Center Survey** | Flutter/BLoC offline-first survey collection with GPS, QR device custody and background synchronization. | [GitHub](https://github.com/Mounir-Almzayek/survey-app) |
+| **RS4IT MCP Hub** | Next.js administration, role visibility, integrated tools and MCP service interfaces. | [GitHub](https://github.com/Mounir-Almzayek/Rs4it-MCP) |
+| **Mazed — POS & accounting integration** | Flutter Windows/mobile, NamiPay payment terminals, ERP integrations and transaction reliability. | Employer source private |
+| **Resume Analyst AI** | FastAPI, MongoDB and embeddings for CV extraction, hybrid search and job matching. | [GitHub](https://github.com/Mounir-Almzayek/CV-management) |
+
+<details>
+<summary><strong>More products, applied AI and research</strong> — 7 highlights</summary>
+
+| Project | Focus & public link |
+|---|---|
+| **OVA — real-estate AI assistant** | Assistant quality and valuation workflows at Ovaluate (private company source). |
+| **The Saudi Cup** | Event guest services · [Google Play](https://play.google.com/store/apps/details?id=com.app.saudicup) |
+| **The Swimmer ecosystem** | Customer and maintenance apps · [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.swimmer) |
+| **Bin Taleb** | Pool products and services · [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.bin_taleb) |
+| **Advanced Neural Network Framework** | From-scratch NumPy layers, optimizers and training · [GitHub](https://github.com/Mounir-Almzayek/Simple-Neural-Network) |
+| **Quran ASR experiments** | Whisper Tiny/Small and NeMo FastConformer for Quran speech adaptation · [Tiny](https://github.com/Mounir-Almzayek/quran-whisper-tiny-colab) · [Small](https://github.com/Mounir-Almzayek/quran-whisper-small-colab) · [FastConformer](https://github.com/Mounir-Almzayek/quran-fastconformer-colab) |
+| **AutoContent AI** | Agentic editorial workflow integrating FastAPI, LangGraph and WordPress · [GitHub](https://github.com/Mounir-Almzayek/AutoContent-AI) |
+
+</details>
 
 <a id="engineering-approach"></a>
 ## How I engineer systems
@@ -208,8 +155,8 @@ All **26 public repositories other than this profile README**, grouped to keep t
 
 **Education:** Informatics Engineering — Artificial Intelligence specialization, University of Damascus.
 
-<a id="certifications-and-community"></a>
-## Certifications and community
+<a id="certifications"></a>
+## Certifications
 
 **DeepLearning.AI / Coursera**
 
@@ -222,13 +169,6 @@ All **26 public repositories other than this profile README**, grouped to keep t
 - AI For Everyone (Oct 2025)
 
 **Additional training:** EARTech IT — AI with Coding & Cybersecurity Bootcamp.
-
-**Community leadership & volunteering**
-
-- **RBCs Informatics — Academic Content Team Lead** (Nov 2022 – present): coordinated educational material preparation, editorial review and quality control.
-- **RBCs — Team Leadership & Media Coordination** (Oct 2024 – present): volunteer coordination, task planning and creative quality.
-- **RBCs — SCREEN IT4 Design Lead** (Feb – Jul 2026): creative direction and educational outreach/speaking.
-- **NetSys Club — Graphic Designer** (Jun 2026 – present): identity and promotional design for club activities.
 
 **Languages:** Arabic (native) · English (professional working proficiency).
 
