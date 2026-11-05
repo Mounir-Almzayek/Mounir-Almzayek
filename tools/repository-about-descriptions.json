@@ -1,8 +1,8 @@
 {
   "owner": "Mounir-Almzayek",
-  "purpose": "GitHub repository About descriptions",
+  "purpose": "GitHub About descriptions for public repositories; private repositories are intentionally excluded",
   "reviewed_utc_date": "2026-11-05",
-  "count": 29,
+  "count": 27,
   "repositories": [
     {
       "name": "Adaptive-Agentic-RAG-System",
@@ -43,10 +43,6 @@
     {
       "name": "High-Performance-E-Commerce-Backend-Engine",
       "description": "Django/DRF e-commerce coursework exploring concurrency, transaction integrity, Redis/Celery workflows, and load-testing design."
-    },
-    {
-      "name": "M.O.U.N.I.R",
-      "description": "Local-first personal AI agent architecture with persistent identity, continuous cognition, governed memory, and permission-gated tools."
     },
     {
       "name": "Minesweeper",
@@ -95,10 +91,6 @@
     {
       "name": "survey-app",
       "description": "Offline-first Flutter survey and field-accreditation app with conditional forms, GPS, QR device custody, and reliable sync."
-    },
-    {
-      "name": "swinging-paint-bucket",
-      "description": "Unity/C# physics simulation exploring a swinging paint bucket, fluid motion, rope dynamics, and particle interactions."
     },
     {
       "name": "Tree-representations-and-dealing-with-papers",
