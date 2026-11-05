@@ -1,6 +1,6 @@
 # Repository About descriptions (November 2026)
 
-Curated English **GitHub About / Description** text for the **29 repositories owned by `Mounir-Almzayek`** (27 public and 2 private).
+Curated English **GitHub About / Description** text for the **27 public repositories owned by `Mounir-Almzayek`**.
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Descriptions were reviewed against available repository metadata, README content
 
 ## Files
 
-- [repository-about-descriptions.json](repository-about-descriptions.json) — 29 proposed descriptions, keyed by exact repository name.
+- [repository-about-descriptions.json](repository-about-descriptions.json) — 27 public-repository descriptions, keyed by exact repository name.
 - [apply-repo-descriptions.ps1](apply-repo-descriptions.ps1) — PowerShell 5.1+ preview, backup, authenticated batch update, and post-write verification.
 
 ## How to apply on Windows
@@ -33,6 +33,8 @@ Descriptions were reviewed against available repository metadata, README content
    ```powershell
    powershell -NoProfile -File .\tools\apply-repo-descriptions.ps1 -Apply
    ```
+
+Private repositories are deliberately excluded from the publicly visible manifest; handle their descriptions separately from a private local source.
 
 The script checks the account, reads all existing descriptions before any writes, saves a local JSON backup under Documents/GitHub-Description-Backups, edits **only** descriptions, and verifies each new value. It does not change any repo visibility or expose private repository contents.
 
