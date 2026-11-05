@@ -8,12 +8,11 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/mounir-almzayek-baba06279/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:mouneeralmzayek@gmail.com">Email</a> &nbsp;·&nbsp;
-  <a href="https://www.byliqaa.me/ar">Liqaa (live product)</a> &nbsp;·&nbsp;
   <a href="https://github.com/Mounir-Almzayek?tab=repositories">Repositories</a>
 </p>
 <p align="center">
-  <a href="#featured-work">Featured projects</a> &nbsp;·&nbsp;
   <a href="#engineering-approach">Engineering approach</a> &nbsp;·&nbsp;
+  <a href="#featured-work">Featured projects</a> &nbsp;·&nbsp;
   <a href="#public-project-index">Project index</a> &nbsp;·&nbsp;
   <a href="#experience">Experience</a> &nbsp;·&nbsp;
   <a href="#certifications">Certifications</a>
