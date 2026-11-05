@@ -29,37 +29,6 @@
 | **Web, APIs & platforms** | React/Next.js, NestJS/Fastify, backend contracts, data access, admin systems | [Liqaa live product](https://www.byliqaa.me/ar) · Wusol · Tebyan |
 | **Mobile & cross-platform** | Flutter/Dart, offline-first systems, device/payment integrations, Android/iOS/Windows | [Survey application](https://github.com/Mounir-Almzayek/survey-app) · [Bin Taleb on Play](https://play.google.com/store/apps/details?id=com.rs4it.bin_taleb) |
 
-<a id="featured-work"></a>
-## Featured projects
-
-A focused shortlist for technical reviewers: **what it does, the engineering involved, and evidence to explore**. Private team and client code is not linked.
-
-| Project | Engineering focus | Evidence |
-|---|---|---|
-| **Tebyan — mosque platform & live recitation** | Flutter mobile/display with offline-first behavior; FastAPI/WebSocket live imam tracking via speech recognition and constrained Quran alignment. | Team source private |
-| **M.O.U.N.I.R — personal AI agent** | Local-first agent architecture with durable identity, governed memory, bounded context and explicit action controls. | Private source |
-| **Liqaa — digital invitations** | Interactive invitation templates, event details and RSVP workflows built for the web. | [Live product](https://www.byliqaa.me/ar) |
-| **Wusol — school management SaaS** | Next.js, TypeScript, Fastify, Prisma and MySQL; multi-tenant administration and role-based access. | Private source |
-| **King Abdulaziz Center Survey** | Flutter/BLoC offline-first survey collection with GPS, QR device custody and background synchronization. | [GitHub](https://github.com/Mounir-Almzayek/survey-app) |
-| **RS4IT MCP Hub** | Next.js administration, role visibility, integrated tools and MCP service interfaces. | [GitHub](https://github.com/Mounir-Almzayek/Rs4it-MCP) |
-| **Mazed — POS & accounting integration** | Flutter Windows/mobile, NamiPay payment terminals, ERP integrations and transaction reliability. | Employer source private |
-| **Resume Analyst AI** | FastAPI, MongoDB and embeddings for CV extraction, hybrid search and job matching. | [GitHub](https://github.com/Mounir-Almzayek/CV-management) |
-
-<details>
-<summary><strong>More products, applied AI and research</strong> — 7 highlights</summary>
-
-| Project | Focus & public link |
-|---|---|
-| **OVA — real-estate AI assistant** | Assistant quality and valuation workflows at Ovaluate (private company source). |
-| **The Saudi Cup** | Event guest services · [Google Play](https://play.google.com/store/apps/details?id=com.app.saudicup) |
-| **The Swimmer ecosystem** | Customer and maintenance apps · [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.swimmer) |
-| **Bin Taleb** | Pool products and services · [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.bin_taleb) |
-| **Advanced Neural Network Framework** | From-scratch NumPy layers, optimizers and training · [GitHub](https://github.com/Mounir-Almzayek/Simple-Neural-Network) |
-| **Quran ASR experiments** | Whisper Tiny/Small and NeMo FastConformer for Quran speech adaptation · [Tiny](https://github.com/Mounir-Almzayek/quran-whisper-tiny-colab) · [Small](https://github.com/Mounir-Almzayek/quran-whisper-small-colab) · [FastConformer](https://github.com/Mounir-Almzayek/quran-fastconformer-colab) |
-| **AutoContent AI** | Agentic editorial workflow integrating FastAPI, LangGraph and WordPress · [GitHub](https://github.com/Mounir-Almzayek/AutoContent-AI) |
-
-</details>
-
 <a id="engineering-approach"></a>
 ## How I engineer systems
 
@@ -77,6 +46,29 @@ Rather than listing every library I have touched, these are the practices I try 
 | **Web & backend** | TypeScript, React, Next.js, NestJS, Fastify, Python, FastAPI, REST APIs |
 | **AI & speech** | PyTorch, TensorFlow, scikit-learn, NumPy, LangChain, LangGraph, MCP, RAG, Whisper, NeMo |
 | **Data & operations** | PostgreSQL, MySQL, MongoDB, Redis, Supabase, Docker, GitHub Actions, Cloudflare |
+
+<a id="featured-work"></a>
+## Featured projects
+
+Selected mobile, full-stack and AI work in one view. Each entry highlights its engineering focus and points to public code or a live product where available; private employer and team source is not linked.
+
+| Project | Engineering focus | Evidence |
+|---|---|---|
+| **Tebyan — mosque platform & live recitation** | Flutter mobile/display with offline-first behavior; FastAPI/WebSocket live imam tracking via speech recognition and constrained Quran alignment. | Team source private |
+| **M.O.U.N.I.R — personal AI agent** | Local-first agent architecture with durable identity, governed memory, bounded context and explicit action controls. | Private source |
+| **Liqaa — digital invitations** | Interactive invitation templates, event details and RSVP workflows built for the web. | [Live product](https://www.byliqaa.me/ar) |
+| **Wusol — school management SaaS** | Next.js, TypeScript, Fastify, Prisma and MySQL; multi-tenant administration and role-based access. | Private source |
+| **King Abdulaziz Center Survey** | Flutter/BLoC offline-first survey collection with GPS, QR device custody and background synchronization. | [GitHub](https://github.com/Mounir-Almzayek/survey-app) |
+| **RS4IT MCP Hub** | Next.js administration, role visibility, integrated tools and MCP service interfaces. | [GitHub](https://github.com/Mounir-Almzayek/Rs4it-MCP) |
+| **Mazed — POS & accounting integration** | Flutter Windows/mobile, NamiPay payment terminals, ERP integrations and transaction reliability. | Employer source private |
+| **Resume Analyst AI** | FastAPI, MongoDB and embeddings for CV extraction, hybrid search and job matching. | [GitHub](https://github.com/Mounir-Almzayek/CV-management) |
+| **OVA — real-estate AI assistant** | Improved assistant responses and alignment with property-valuation workflows at Ovaluate. | Company source private |
+| **The Saudi Cup** | Mobile guest services and event logistics for the Saudi Cup. | [Google Play](https://play.google.com/store/apps/details?id=com.app.saudicup) |
+| **The Swimmer ecosystem** | Mobile commerce, customer services and maintenance workflows. | [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.swimmer) |
+| **Bin Taleb** | Mobile shopping and service requests for swimming-pool products. | [Google Play](https://play.google.com/store/apps/details?id=com.rs4it.bin_taleb) |
+| **Advanced Neural Network Framework** | Neural-network layers, optimizers and training implemented from scratch in NumPy. | [GitHub](https://github.com/Mounir-Almzayek/Simple-Neural-Network) |
+| **Quran ASR experiments** | Whisper Tiny/Small and NeMo FastConformer adaptation and evaluation for Quran speech. | [Tiny](https://github.com/Mounir-Almzayek/quran-whisper-tiny-colab) · [Small](https://github.com/Mounir-Almzayek/quran-whisper-small-colab) · [FastConformer](https://github.com/Mounir-Almzayek/quran-fastconformer-colab) |
+| **AutoContent AI** | FastAPI/LangGraph agents for editorial automation and WordPress publishing. | [GitHub](https://github.com/Mounir-Almzayek/AutoContent-AI) |
 
 <a id="public-project-index"></a>
 ## Public project index
