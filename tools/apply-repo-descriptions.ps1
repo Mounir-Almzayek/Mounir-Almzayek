@@ -26,8 +26,31 @@ $items = @($manifest.repositories)
 if ($items.Count -ne 27) { throw "Expected exactly 27 public repositories; found $($items.Count)." }
 if (@($items | Select-Object -ExpandProperty name -Unique).Count -ne $items.Count) { throw "Duplicate repositories in manifest." }
 $null = Get-Command gh -ErrorAction Stop
-$me = (& gh api user --jq .login 2>&1 | Out-String).Trim()
-if ($LASTEXITCODE -ne 0) { throw "GitHub CLI authentication missing: run gh auth login." }
+
+# Read native GitHub JSON instead of relying on jq quoting in Windows PowerShell.
+function Invoke-GitHubApiJson {
+    param([Parameter(Mandatory = $true)][string]$Endpoint)
+
+    $response = (& gh api $Endpoint 2>&1 | Out-String).Trim()
+    if ($LASTEXITCODE -ne 0) {
+        throw "GitHub API request failed for '$Endpoint': $response"
+    }
+    try {
+        return ($response | ConvertFrom-Json)
+    }
+    catch {
+        throw "Could not parse GitHub JSON for '$Endpoint': $($_.Exception.Message)"
+    }
+}
+
+function Get-GitHubDescription {
+    param([Parameter(Mandatory = $true)][string]$Repository)
+    $metadata = Invoke-GitHubApiJson -Endpoint "repos/$Repository"
+    if ($null -eq $metadata.description) { return "" }
+    return [string]$metadata.description
+}
+
+$me = [string](Invoke-GitHubApiJson -Endpoint "user").login
 if ($me -ine $owner) { throw "Authenticated GitHub user '$me' is not '$owner'. Aborting." }
 
 $baseline = [System.Collections.Generic.List[object]]::new()
@@ -39,8 +62,7 @@ foreach ($item in $items) {
         throw "Invalid repo name or description length: $name"
     }
     $full = "$owner/$name"
-    $raw = (& gh api "repos/$full" --jq '.description // ""' 2>&1 | Out-String).Trim()
-    if ($LASTEXITCODE -ne 0) { throw "Cannot read $full; aborting before changes. $raw" }
+    $raw = Get-GitHubDescription -Repository $full
     $baseline.Add([pscustomobject]@{ repository = $full; before = $raw; proposed = $desired; change = ($raw -cne $desired) })
 }
 $changed = @($baseline | Where-Object { $_.change })
@@ -72,10 +94,15 @@ foreach ($item in $changed) {
         Write-Warning "Update failed for $($item.repository): $output"
         continue
     }
-    $actual = (& gh api "repos/$($item.repository)" --jq '.description // ""' 2>&1 | Out-String).Trim()
-    if ($LASTEXITCODE -ne 0 -or $actual -cne $item.proposed) {
-        $failures.Add("$($item.repository): could not verify the new description")
-        Write-Warning "Verification failed for $($item.repository)"
+    try {
+        $actual = Get-GitHubDescription -Repository $item.repository
+        if ($actual -cne $item.proposed) {
+            throw "Expected '$($item.proposed)', got '$actual'"
+        }
+    }
+    catch {
+        $failures.Add("$($item.repository): could not verify the new description: $($_.Exception.Message)")
+        Write-Warning "Verification failed for $($item.repository): $($_.Exception.Message)"
         continue
     }
     $success++
