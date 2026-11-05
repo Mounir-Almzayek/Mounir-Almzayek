@@ -23,7 +23,7 @@ $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | Convert
 $owner = [string]$manifest.owner
 if ($owner -cne "Mounir-Almzayek") { throw "Unexpected owner in manifest." }
 $items = @($manifest.repositories)
-if ($items.Count -ne 29) { throw "Expected exactly 29 repositories; found $($items.Count)." }
+if ($items.Count -ne 27) { throw "Expected exactly 27 public repositories; found $($items.Count)." }
 if (@($items | Select-Object -ExpandProperty name -Unique).Count -ne $items.Count) { throw "Duplicate repositories in manifest." }
 $null = Get-Command gh -ErrorAction Stop
 $me = (& gh api user --jq .login 2>&1 | Out-String).Trim()
